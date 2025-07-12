@@ -628,7 +628,7 @@ line-height: 1.07143;
 .backdrop-btn-close {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
+/* 
 .backdrop-btn:hover,
 .backdrop-btn:focus {
   background-color: #404bbf;
@@ -638,7 +638,7 @@ line-height: 1.07143;
 .backdrop-btn:hover .backdrop-btn-close,
 .backdrop-btn:focus .backdrop-btn-close {
   fill: #ffffff;
-}
+} */
 
 .backdrop-text {
   font-weight: 500;
@@ -696,7 +696,7 @@ line-height: 1.07143;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.field-input:hover,
+/* .field-input:hover,
 .field-input:focus {
   outline: none;
   border-color: #4D5AE5;;
@@ -705,7 +705,7 @@ line-height: 1.07143;
 .field-input:hover + .field-icons,
 .field-input:focus-within + .field-icons {
   fill: #4d5ae5;
-}
+} */
 
 .comment {
   width: 100%;
@@ -723,11 +723,11 @@ line-height: 1.07143;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.comment:hover,
+/* .comment:hover,
 .comment:focus {
   border-color: #4d5ae5;
   outline: none;
-}
+} */
 
 .backdrop-button {
   border-radius: 4px;
@@ -751,10 +751,10 @@ line-height: 1.07143;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.backdrop-button:focus,
+/* .backdrop-button:focus,
 .backdrop-button:hover {
   background-color: #404bbf;
-}
+} */
 
 .backdrop-checkbox {
   margin-bottom: 24px;
