@@ -1273,6 +1273,7 @@ input:checked+label .checkmark {
 
 .checkmark {
   display: inline-flex; 
+  flex-shrink: 0;
   width: 16px;
   height: 16px;
   border: 1px solid rgba(46, 47, 66, 0.4);
@@ -1316,5 +1317,41 @@ input:checked+label .checkmark {
 @media (min-width: 768px) {
 .modal {
   padding:  72px 24px 24px 24px;
+    width: 408px;
+}
+}
+
+@media (min-width: 1158px) {
+
+.backdrop-btn:hover,
+.backdrop-btn:focus {
+  background-color: #404bbf;
+  border: none; 
+}
+
+.backdrop-btn:hover .backdrop-btn-close,
+.backdrop-btn:focus .backdrop-btn-close {
+  fill: #ffffff;
+}
+
+.field-input:hover,
+.field-input:focus {
+  outline: none;
+  border-color: #4D5AE5;;
+}
+
+.field-input:hover + .field-icons,
+.field-input:focus-within + .field-icons {
+  fill: #4d5ae5;
+}
+
+.comment:hover,
+.comment:focus {
+  border-color: #4d5ae5;
+  outline: none;
+}
+.backdrop-button:focus,
+.backdrop-button:hover {
+  background-color: #404bbf;
 }
 }
